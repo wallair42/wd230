@@ -9,11 +9,17 @@ body {
 }
 
 header {
-    flex-direction: row-reverse;
     background-color: #3E5C76;
     color: white;
     padding: 15px;
     text-align: center;
+    height: 50px;
+    border-radius: 10px;
+}
+
+header img {
+    float: right;
+    padding: 0px;
 }
 
 footer {
@@ -23,6 +29,7 @@ footer {
     font-family: 'Be Vietnam', sans-serif;
     padding-top: 7px;
     padding-bottom: 7px;
+    border-radius: 10px;
 }
 
 main {
@@ -33,3 +40,19 @@ h1 {
     padding-top: 10px;
     margin: 0px;
 }
+
+footer a {
+    color: #89cff0;
+}
+
+ul a {
+    color: #3E5C76;
+}
+
+
+/*
+      a:link - a normal, unvisited link
+      a:visited - a link the user has visited
+      a:hover - a link when the user mouses over it
+      a:active - a link the moment it is clicked
+  */
