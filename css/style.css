@@ -11,7 +11,7 @@
             header {
                 display: flex;
                 flex-direction: column;
-                background-color: #3E5C76;
+                align-items: center;
                 color: white;
                 padding: 15px;
                 text-align: center;
