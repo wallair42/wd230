@@ -9,6 +9,8 @@
             }
             
             header {
+                display: flex;
+                flex-direction: row;
                 background-color: #3E5C76;
                 color: white;
                 padding: 15px;
