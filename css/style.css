@@ -10,8 +10,6 @@
             
             header {
                 display: flex;
-                flex-direction: column;
-                align-items: center;
                 color: white;
                 padding: 15px;
                 text-align: center;
