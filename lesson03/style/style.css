@@ -60,7 +60,9 @@ main {
 
 main img {
 
-  max-width: 780px;
+  max-width: 90%;
+  height: auto;
+  width: auto;
 
 }
 
@@ -78,6 +80,7 @@ ul a {
   color: #3E5C76;
 }
 
+
 nav ul {
 
   list-style-type: none;
@@ -85,6 +88,7 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  border-radius: 10px;
   
 }
 
