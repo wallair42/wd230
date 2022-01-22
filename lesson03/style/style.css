@@ -8,10 +8,20 @@ body {
 
   max-width: 800px;
   margin: auto;
+  font-family: 'Cardo', serif;
 
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+ }
 
+p {
+
+line-height: 20px;
+
+}
 header {
 
   background-color:  #3E5C76;
@@ -90,7 +100,6 @@ nav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-
 
 }
 
