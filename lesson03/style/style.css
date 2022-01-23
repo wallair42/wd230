@@ -55,6 +55,7 @@ footer {
 main {
 
   padding: 10px;
+  text-align: center;
 
 }
 
@@ -144,4 +145,8 @@ nav li a:hover {
   
   
 
+}
+
+#audience {
+text-align: center;
 }
