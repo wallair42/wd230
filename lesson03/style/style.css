@@ -124,3 +124,24 @@ nav li a:hover {
   max-width: 75px;
 
 }
+
+#persona {
+
+  display: flex;
+  flex-direction: column;
+    
+}
+
+#female img {
+
+  height: 200px;
+  
+}
+
+#male  img {
+
+  height: 200px;
+  
+  
+
+}
