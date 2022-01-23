@@ -130,23 +130,52 @@ nav li a:hover {
 
   display: flex;
   flex-direction: column;
+  
     
 }
 
 #female img {
 
   height: 200px;
+  border: 2px solid black;
+  margin: 15px;
+  
   
 }
 
 #male  img {
 
   height: 200px;
+  border: 2px solid black;
+  Margin:15px;
+  
   
   
 
 }
 
+#male {
+
+  border: 2px solid black;
+  margin: 15px;
+
+
+}
+
+#female {
+
+  border: 2px solid black;
+  Margin: 15px;
+
+}
+
 #audience {
 text-align: center;
+}
+
+.scinerios {
+
+  border: 2px solid black;
+  Margin: 15px;
+
 }
