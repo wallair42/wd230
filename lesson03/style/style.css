@@ -123,6 +123,7 @@ nav li a:hover {
 #logo {
 
   max-width: 50%;
+  
 
 }
 
@@ -130,7 +131,7 @@ nav li a:hover {
 
   display: flex;
   flex-direction: column;
-     
+
 }
 
 #female img {
