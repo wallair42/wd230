@@ -147,7 +147,7 @@ nav li a:hover {
   height: 200px;
   border: 2px solid black;
   margin: 15px;
-  
+  text-align: center;  
   
 }
 
@@ -156,7 +156,8 @@ nav li a:hover {
   height: 200px;
   border: 2px solid black;
   Margin:15px;
- 
+  text-align: center;
+  
 }
 
 #male {
@@ -165,8 +166,8 @@ nav li a:hover {
   margin: 15px;
   text-align: left;
   padding: 10px;
+  border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 
 }
 
@@ -176,6 +177,7 @@ nav li a:hover {
   Margin: 15px;
   text-align: left;
   padding: 10px;
+  border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -190,6 +192,7 @@ text-align: center;
   Margin: 15px;
   text-align: left;
   padding: 10px;
+  border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
