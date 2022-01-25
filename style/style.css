@@ -14,7 +14,7 @@ header img {
   
   header {
   
-    background-color:  #E8E163;
+    background-color: hsl(214, 74%, 65%) ;
     color: white;
     padding: 15px ;
     text-align: center;
@@ -39,7 +39,7 @@ header img {
   footer { 
   
     text-align: center;
-    background-color: #E8E163;
+    background-color: hsl(214, 74%, 65%);
     color: white;
     font-family: 'Be Vietnam', sans-serif;
     padding-top: 7px;
