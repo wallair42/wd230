@@ -36,6 +36,7 @@ nav {
 	background-color: #36454f;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
+	border-radius: 10px;
 
 }
 
@@ -45,6 +46,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	border-radius: 10px;
 
 }
 
