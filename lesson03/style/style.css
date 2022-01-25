@@ -97,44 +97,42 @@ ul a {
 
 
 nav {
-
 	background-color: #36454f;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
-  border-radius: 10px;
-
 }
-
 nav ul {
-
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-  border-radius: 10px;;
-  
 }
-
 nav ul li a {
-
 	display: block;
 	color: #fff;
 	text-align: center;
-  float: left;
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 0.95rem;
+	background: linear-gradient(90deg, transparent, yellow, transparent) top /
+		var(--d, 0) 10px no-repeat;
 	transition: 0.5s;
-
 }
-  
 nav a:hover {
 
 	background-color: #bbb;
 	color: #36454f;
 	--d: 75%;
-
 }
+.active {
+	color: yellow;
+}
+
+
+
+
+
+
 
 .mainpage {
 
