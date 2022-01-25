@@ -105,7 +105,7 @@ ul a {
 
 body {
 	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
+	
 }
 
 /* phone or baseline views **************************/
@@ -164,20 +164,10 @@ nav a:hover {
 	color: yellow;
 }
 main {
-	display: grid;
-	grid-template-columns: 1fr;
 	font-size: 0.8rem;
 }
-main article {
-	margin: .5rem;
-	border: 1px solid #bbb;
-	padding: 1rem;
-	background-color: #eee;
-}
 
-main article ul {
-margin: 1rem 0 0 1rem;
-}
+
 main picture {
 	display: none;
 	margin: 0.5rem;
@@ -232,9 +222,7 @@ nav ul {
 	nav a {
 		font-size: 1.1rem;
 	}
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
+
 	article:nth-child(3) {
 		grid-column: span 1;
 	}
