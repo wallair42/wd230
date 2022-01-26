@@ -1,5 +1,5 @@
 /* phone or baseline views **************************/
-header,
+
 footer {
 
 	background-color: #173679 ;
@@ -12,12 +12,35 @@ footer {
 
 }
 
+.header-banner {
+    background-color: #333;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAXD_x0P5kx_D-7WptK3ZURXh2c78HrUvkJQ&usqp=CAU');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+	border-radius: 20px;
+}
+
+header h1 {
+    
+    color: black;
+    padding: 0 1rem;
+    position: relative;
+    top: 2rem; 
+    left: 2rem;
+	
+}
+
+
 header,
 nav,
 main,
 footer {
 
-	max-width: 767px;
+	max-width: 75%;
 	margin: 0 auto;
 
 }
@@ -109,4 +132,5 @@ footer {
 	color: #E8E163;
 
 }
+
 
