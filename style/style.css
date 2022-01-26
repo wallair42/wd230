@@ -14,14 +14,18 @@ header img {
   
   header {
   
-    background-color: hsl(214, 74%, 65%) ;
+    
     color: white;
+
     padding: 15px ;
     text-align: center;
     height: 180px;
     border-radius: 10px;
     border: 2px solid black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url('https://i.pinimg.com/736x/a2/d1/23/a2d123540647f8b180b7f712f3425a58.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   
   }
   
@@ -30,7 +34,7 @@ header img {
     float: left;
     padding: 0px ;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 5px;
+    border-radius: 150px;
     border: 1px solid black;
     
   
