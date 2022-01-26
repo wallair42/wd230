@@ -11,14 +11,11 @@ header img {
   
   }
   
-  
   header {
   
-    
     color: white;
-
     padding: 15px ;
-    text-align: center;
+    text-align:  center;
     height: 180px;
     border-radius: 10px;
     border: 2px solid black;
@@ -26,6 +23,7 @@ header img {
     background-image: url('https://i.pinimg.com/736x/a2/d1/23/a2d123540647f8b180b7f712f3425a58.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: inset 0px 0px 30px 30px rgba(0,0,0,0.9);
   
   }
   
@@ -36,6 +34,9 @@ header img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 150px;
     border: 1px solid black;
+    opacity: 90%;
+    max-height: 100%;
+    
     
   
   }
@@ -43,7 +44,7 @@ header img {
   footer { 
   
     text-align: center;
-    background-color: hsl(214, 74%, 65%);
+    background-color: hsl(214, 74%, 65%, 50%);
     color: white;
     font-family: 'Be Vietnam', sans-serif;
     padding-top: 7px;
@@ -66,7 +67,7 @@ header img {
   }
   
   footer a{
-    color:  #89cff0;
+    color:  black;
   }
   
   ul a {
