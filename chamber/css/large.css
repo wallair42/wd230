@@ -6,9 +6,15 @@
 		font-size: 1.1rem;
 	}
 	main {
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 2fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
 	}
 	article:nth-child(3) {
 		grid-column: span 1;
+	}
+
+	.spotlight {
+
+		max-height: 100%;
 	}
 }
