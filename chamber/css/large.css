@@ -11,14 +11,68 @@
 		grid-gap: 5px;
 	}
 	article:nth-child(3) {
+
 		grid-column: span 1;
 	}
 
 	.spotlight {
 
-	color: green;
-	grid-column: 3/4;
-	grid-row: 1/3;
+		color: green;
+		grid-column: 3;
+		grid-row: 1/4;
 
 	}
+	.spotlight div {
+
+		border: 2px solid black;
+		margin: 10px;
+
+	}
+
+	.event {
+
+		color:yellow;
+		grid-column: 1;
+		grid-row: 1;
+		
+	}
+
+	.hero {
+
+		color: purple;
+		grid-column: 2;
+		grid-row: 1/3;
+
+
+	}
+
+	.weather {
+
+		color:blue;
+		grid-column: 1;
+		grid-row: 2;
+
+
+	}
+
+	.join {
+
+		color:chartreuse;
+		grid-column: 1;
+		grid-row: 3;
+
+
+	}
+
+	.news {
+
+		color:crimson;
+		grid-column: 2;
+		grid-row: 3/4;
+
+
+	}
+
+
+
 }
