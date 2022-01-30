@@ -33,3 +33,12 @@ document.getElementById("current-year").innerHTML = d.getFullYear();
 
 let lastModified = document.lastModified;
 document.getElementById("last-modified").innerHTML = lastModified;
+
+function toggleMenu() {
+
+    document.getElementById("primaryNav").classList.toggle("open");
+
+}
+
+const x = document.getElementById('hamburgerBtn')
+x.onclick = toggleMenu;

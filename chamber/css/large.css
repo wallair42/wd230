@@ -2,9 +2,12 @@
 	h1 {
 		font-size: 2rem;
 	}
-	nav a {
-		font-size: 1.1rem;
+
+	nav ul li a {
+
+		padding: .5rem 1 rem
 	}
+	
 	main {
 		grid-template-columns: 1fr 2fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr;

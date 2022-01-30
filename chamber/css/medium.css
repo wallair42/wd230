@@ -1,13 +1,33 @@
 /* Tablet Views ******************************/
-@media only screen and (min-width: 37.5em) {
-	h1 {
+@media only screen and (min-width: 40em) {
+	
+h1 {
 		font-size: 1.5rem;
 	}
 
-	/* Horizontal Menu Examples */
-	/* Flex *********************/
- 		nav ul { display: flex; }
-		nav ul li { flex: 1 1 auto; } */
+nav button {
+
+		display: none;
+
+	}
+
+nav ul#primaryNav { 
+		 
+		display: flex;
+		margin-left: 2vw;
+		
+		justify-content: center;;
+	
+	}
+
+	nav ul li a {
+
+		border: none;
+		)
+		
+	}
+
+nav ul li { flex: 1 1 auto; } */
 
 	/* Grid *********************/
 /*	nav ul {
@@ -15,20 +35,29 @@
 		/*grid-template-columns: repeat(5, 1fr);
 		grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
 	}
+
+	
 */
-	nav a {
+
+
+
+nav a {
 		font-size: 1rem;
 	}
-	main {
+
+main {
 		grid-template-columns: 1fr 1fr;
 	}
-	article:nth-child(3) {
+
+article:nth-child(3) {
 		grid-column: span 2;
 	}
-	main picture {
+
+main picture {
 		display: block;
 	}
-	main picture img {
+
+main picture img {
 		width: 100%;
 		height: auto;
 		border: 1px solid #bbb;
