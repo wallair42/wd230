@@ -1,4 +1,67 @@
 /* phone or baseline views **************************/
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+nav button {
+
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+
+}
+
+nav {
+
+    background-color: #eee;
+
+}
+
+nav ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li a {
+
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0,0,0,0.5);
+
+}
+
+nav ul li.active a {
+
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+nav ul li a:hover  {
+
+    background-color: rgba(0,0,0,0.4);
+
+}
+
+nav ul {
+
+    display: none;
+}
+
+nav ul.open {
+
+    display: block;
+    
+}
+
 header, footer {
 
 	background-color: #173679;
@@ -53,86 +116,6 @@ header, footer {
 	height: auto;
 
 }
-
-/* Larger viewports */
-@media only screen and (min-width: 32.5em) {
-	header img {
-
-		width: 100%;
-	
-	}
-
-	.headings h1 {
-
-		font-size: 2rem;
-		margin: 0;
-
-	}
-
-	.m {
-
-		letter-spacing: 1.5pt;
-		font-size: 0.9rem;
-		
-	}
-
-	
-}
-
-nav button {
-
-	margin: .2rem 2vw;
-	background: transparent;
-	border: none;
-	font-size:  2rem;
-	color: #555;
-
-}
-
-nav {
-
-	background-color: #4888C8;
-	box-shadow: 0 2px 15px gray;
-	
-}
-
-
-
-nav ul li a {
-
-	display: block;
-	color: #333;
-	padding: 0.8rem 2vw;
-	text-decoration: none;
-	border-top: 1px solid rgba(0,0,0,0.5);
-
-}
-
-
-nav a:hover {
-
-	background-color: #7FC5DC;
-	color: #36454f; 
-	
-}
-
-nav ul {
-
-	display: none;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	
-
-}
-
-nav ul.open {
-
-	display: block;
-	
-}
-
 
 
 main {
