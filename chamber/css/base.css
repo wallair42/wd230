@@ -4,7 +4,12 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-	
+
+body {
+
+	padding: 5px;
+
+}	
 
 nav button {
 
@@ -12,16 +17,17 @@ nav button {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: #555;
+    color: black;
+	justify-content: right;
 	
-
 }
 
 nav {
 
-	background-color: #eee;	
+	background-color: #173679;	
 	border-left: 0;
-    	
+	justify-items: right;
+   	
 }
 
 nav ul {
@@ -37,7 +43,7 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #333;
+    color: white;
     border-top: 1px solid rgba(0,0,0,0.5);
 
 }
@@ -61,35 +67,36 @@ nav ul {
 
 nav ul.open {
 
+	position: absolute;
     display: block;
+	background-color: #173679;
     
 }
+
+
 
 header, footer {
 
 	background-color: #173679;
 	padding: 5px 0;
 	display: flex;
-	align-items: center;
 	justify-content: space-between;
 	margin: 0 auto;
 	border-bottom: 1px solid #bbb;
 
 }
 
-.date, aside {
+.date{
 
-	margin: 0.5rem;
 	border: 1px solid #bbb;
-	padding: 0.75rem;
-	background-color: #eee;
+	background-color: white;
 
 }
 
 .logo {
 
 grid-column: 1/4;
-
+grid-row: 0/1;
 
 }
 
@@ -104,14 +111,16 @@ grid-column: 1/4;
 .headings {
 
 	line-height: 2px;
-	padding: 5px;
+	padding: 7px;
+	margin-top: -7px;
+	float: right;
 
 }
 
 .social {
 
 	margin-right: 1.5rem;
-
+	
 }
 
 .social svg {
@@ -121,13 +130,13 @@ grid-column: 1/4;
 
 }
 
-
 main {
 
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(6, 1fr);
 	font-size: 0.8rem;
+	
 
 }
 
