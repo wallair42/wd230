@@ -27,6 +27,7 @@ nav {
 	background-color: #173679;	
 	border-left: 0;
 	justify-items: right;
+	margin-left: 0;
    	
 }
 
@@ -86,6 +87,11 @@ header, footer {
 
 }
 
+footer {
+
+	align-content: center;
+}
+
 .date{
 
 	border: 1px solid #bbb;
@@ -134,7 +140,7 @@ main {
 
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: repeat(6, 1fr);
+	grid-template-rows: repeat( 6,200px);
 	font-size: 0.8rem;
 	
 
@@ -167,8 +173,7 @@ main picture {
 .spotlight {
 
 		color: green;
-		grid-row: 5/7;
-		
+			
 	}
 
 

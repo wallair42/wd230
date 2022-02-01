@@ -3,9 +3,50 @@
 		font-size: 2rem;
 	}
 
-	nav ul li a {
+	nav button {
 
-		padding: .5rem 1 rem
+		display: none;
+
+	}
+
+	nav {
+
+		background-color: #173679;	
+		border-left: 0;
+		justify-items: right;
+		margin-left: 0;
+		   
+	}
+	
+	nav ul {
+
+		display: flex;
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	
+	}
+	
+	nav ul li a {
+	
+		display: block;
+		padding: .8rem 2vw;
+		text-decoration: none;
+		color: white;
+		border-top: 1px solid rgba(0,0,0,0.5);
+	
+	}
+	
+	nav ul li.active a {
+	
+		background-color: rgba(0,0,0,0.2);
+		color: #fff;
+	}
+	
+	nav ul li a:hover  {
+	
+		background-color: rgba(0,0,0,0.4);
+	
 	}
 	
 	main {
