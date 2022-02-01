@@ -4,8 +4,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-
+	
 
 nav button {
 
@@ -14,13 +13,13 @@ nav button {
     border: none;
     font-size: 2rem;
     color: #555;
+	
 
 }
 
 nav {
 
-	background-color: #eee;
-	
+	background-color: #eee;	
 	border-left: 0;
     	
 }
@@ -89,9 +88,8 @@ header, footer {
 
 .logo {
 
-	display: flex;
-	align-items: center;
-	margin-left: 1rem;
+grid-column: 1/4;
+
 
 }
 
@@ -99,23 +97,16 @@ header, footer {
 
 	width: 80px;
 	height: auto;
+	
 
 }
 
 .headings {
 
-	display: flex;
-	flex-direction: column;
-	margin-left: .5rem;
+	line-height: 2px;
+	padding: 5px;
 
 }
-
-.headings h1 {
-
-	font-size: 1.5rem;
-
-}
-
 
 .social {
 
@@ -135,6 +126,7 @@ main {
 
 	display: grid;
 	grid-template-columns: 1fr;
+	grid-template-rows: repeat(6, 1fr);
 	font-size: 0.8rem;
 
 }
@@ -162,54 +154,50 @@ main picture {
 
 }
 
-footer {
-
-	height: 5rem;
-	color: white;
-
-}
 
 .spotlight {
 
 		color: green;
-	
-
+		grid-row: 5/7;
+		
 	}
+
+
 	.spotlight div {
 
 		border: 2px solid black;
 		margin: 10px;
+		
+
+	}
+	
+	#sp3 {
+
+		display: none;
 
 	}
 
 	.event {
 
 		color:yellow;
-
-		
+	
 	}
 
 	.hero {
 
 		color: purple;
-	;
-
-
+	
 	}
 
 	.weather {
 
 		color:blue;
 	
-
-
 	}
 
 	.join {
 
-		color:chartreuse;
-	
-
+		display: none;
 
 	}
 
@@ -222,7 +210,8 @@ footer {
 	#maplink {
 
 		height: 50px;
-		color: black;
+		color: red;
 		float: right;
 
 	}
+
