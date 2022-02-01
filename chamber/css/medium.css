@@ -51,7 +51,7 @@
 
 main {
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+		grid-template-rows: repeat (10,1fr);
 	}
 
 article:nth-child(3) {
