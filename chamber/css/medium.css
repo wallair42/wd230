@@ -50,8 +50,8 @@
 	}
 
 main {
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: repeat (10,1fr);
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: repeat (8,1fr);
 	}
 
 article:nth-child(3) {
@@ -72,6 +72,9 @@ main picture img {
 	.spotlight {
 
 		color: green;
+		grid-column: 1/5
+		;
+		grid-row: 3/4;
 	
 
 	}
@@ -79,21 +82,23 @@ main picture img {
 
 		border: 2px solid black;
 		margin: 10px;
-
+		
 	}
 
+	
 	.event {
 
 		color:yellow;
-
-		
+		grid-column: 1/3;
+			
 	}
 
 	.hero {
 
 		color: purple;
-		grid-column: 1/4;
-		grid-row: 1/4;
+		grid-column: 1/5;
+		grid-row: 1/2;
+		
 	;
 
 
@@ -102,6 +107,9 @@ main picture img {
 	.weather {
 
 		color:blue;
+		grid-column-start: 4;
+		
+
 	
 
 
@@ -110,6 +118,9 @@ main picture img {
 	.join {
 
 		color:chartreuse;
+		display: block;
+		grid-column: 1/5;
+		grid-row: 4/5;
 	
 
 
@@ -118,6 +129,8 @@ main picture img {
 	.news {
 
 		color:crimson;
+		grid-column: 1/5;
+		grid-row: 2/3;
 	
 	}
 }
