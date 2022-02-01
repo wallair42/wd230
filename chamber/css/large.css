@@ -1,4 +1,12 @@
 @media only screen and (min-width: 60em) {
+
+	body {
+
+		max-width: 800px;
+		margin: auto;
+		
+	}
+	
 	h1 {
 		font-size: 2rem;
 	}
@@ -13,8 +21,8 @@
 
 		background-color: #173679;	
 		border-left: 0;
-		justify-items: right;
-		margin-left: 0;
+		justify-items: center;
+		margin-left: 5px;
 		   
 	}
 	
@@ -24,7 +32,7 @@
 		list-style-type: none;
 		padding: 0;
 		margin: 0;
-	
+			
 	}
 	
 	nav ul li a {
@@ -33,7 +41,11 @@
 		padding: .8rem 2vw;
 		text-decoration: none;
 		color: white;
+		border-right: 1px solid rgba(0,0,0,0.5);
 		border-top: 1px solid rgba(0,0,0,0.5);
+		border-left: 1px solid rgba(0,0,0,0.5);
+		border-bottom: 1px solid rgba(0,0,0,0.5);
+		
 	
 	}
 	
@@ -52,7 +64,7 @@
 	main {
 		
 		grid-template-columns: 1fr 2fr 1fr;
-		grid-template-rows: repeat(10, 1fr);
+		grid-template-rows: repeat(6, 1fr);
 		grid-gap: 5px;
 		
 	}
@@ -61,13 +73,15 @@
 
 		color: green;
 		grid-column: 3/4;
-		grid-row: 1/5;
+		grid-row: 1/7;
 
 	}
 	.spotlight div {
 
 		border: 2px solid black;
 		margin: 10px;
+		max-height: 32%;
+		margin-top: 5px;
 
 	}
 
