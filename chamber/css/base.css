@@ -91,18 +91,6 @@ header, footer {
 
 }
 
-header {
-
-	
-
-}
-
-footer  {
-
-	text-align: center;
-	flex-direction: column;
-}
-
 .date{
 
 	width:60%;
