@@ -32,6 +32,8 @@ let fulldate = dayName + ", " + monthName + " " + d.getDate() +
     ", " + d.getFullYear();
 
 
+document.getElementById("date").innerHTML =  fulldate;
+
 document.getElementById("current-year").innerHTML = d.getFullYear();
 
 let lastModified = document.lastModified;
