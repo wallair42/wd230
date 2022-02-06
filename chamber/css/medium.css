@@ -49,18 +49,18 @@
 		
 	}
 
-main {
+	main {
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr;
 	}
 
 
 
-main picture {
+	main picture {
 		display: block;
 	}
 
-main picture img {
+	main picture img {
 	
 		width: 100%;
 		height: auto;
@@ -131,3 +131,4 @@ main picture img {
 		grid-row: 2/3;
 	
 	}
+}
