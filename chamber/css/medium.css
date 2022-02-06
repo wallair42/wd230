@@ -49,6 +49,14 @@
 		
 	}
 
+	footer {
+
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		
+	}
+
 	main {
 
 		grid-template-columns: 1fr 1fr 1fr;
