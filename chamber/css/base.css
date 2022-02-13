@@ -239,7 +239,13 @@ main picture {
 	.weather {
 
 		color:blue;
+		text-align: center;
 	
+	}
+
+	#temp {
+
+		border-top: 1px solid black;
 	}
 
 	.join {
