@@ -109,12 +109,33 @@
 
         <p>Current weather information</p>
 
-            <div id="temp">
+        <div id="temp">
+                    
+            <form action="" method=post name=windform>
+                     
+            <p>
+            Wind Speed (MPH) =
+            </p>
+            
+            <p>
+            <input type=text name=wind value="" size=6>
+            </p>
 
-                <p>Current Temperature: </p>
-                <p>Windchill: </p>
+            <br>
+            <p>
+            Air Temperature (ºF) =
+            </p>
+            
+            <p>
+            <input type=text name=temp value="" size=6>
+            <input type=button value="Calculate Wind Chill" onclick="windChill(this.form)">
+            <input name=windchill type=text value="" size=10> º F
+            </p>
+           
+            
+            </form>
 
-            </div>
+        </div>  
 
     </article>
 
