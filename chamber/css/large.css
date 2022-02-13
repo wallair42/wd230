@@ -69,6 +69,8 @@
 		grid-template-columns: 1fr 2fr 1fr;
 		grid-template-rows: repeat(6, 1fr);
 		margin-left: 10px;
+		justify-content: center;
+	
 	}
 	
 	.spotlight {

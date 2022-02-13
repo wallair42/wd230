@@ -78,6 +78,7 @@ nav ul.open {
 footer, header {
 
 	color: white;
+	\;
 }
 
 header {
@@ -91,27 +92,6 @@ header {
 	margin: 0 auto;
 	border-bottom: 1px solid #bbb;
 	min-height: 150px;
-
-}
-
-footer {
-
-	background-color: #173679;
-	padding: 5px 0;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	border-bottom: 1px solid #bbb;
-	min-height: 150px;
-
-}
-
-#myinfo {
-
-	border-top: 1px solid black;
-	margin-left: 15px;
-	margin-right:15px;
-	padding: 10px;
 
 }
 
@@ -152,20 +132,6 @@ footer {
 
 }
 
-.social {
-
-	margin-right: 1.5rem;
-	
-}
-
-.social svg {
-
-	width: 25px;
-	height: auto;
-	border-radius: 50%;
-
-}
-
 main {
 
 	display: grid;
@@ -173,7 +139,6 @@ main {
 	grid-template-rows: repeat( 6,200px);
 	font-size: 0.8rem;
 	
-
 }
 
 main article {
@@ -192,12 +157,25 @@ main article ul {
 
 }
 
-main picture {
 
-	display: none;
-	margin: 0.5rem;
+
+.social {
+
+	margin-right: 1.5rem;
+	
+}
+
+.social svg {
+
+	width: 25px;
+	height: auto;
+	border-radius: 50%;
 
 }
+
+
+
+
 
 
 .spotlight {
@@ -269,4 +247,33 @@ main picture {
 		margin-left: 55px;
 
 	}
+
+	footer {
+
+		background-color: #173679;
+		padding: 5px 0;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		border-bottom: 1px solid #bbb;
+		min-height: 150px;
+	
+	}
+	
+	#myinfo {
+	
+		border-top: 1px solid black;
+		margin-left: 15px;
+		margin-right:15px;
+		padding: 10px;
+	
+	}
+
+	.clearfix::after {
+		
+		content: "";
+		display: table;
+		clear: both;
+		
+	  }
 
